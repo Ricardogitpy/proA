@@ -3,6 +3,11 @@ from tkinter import *
 from tkinter import ttk
 from turtle import heading
 
+import unittest
+from selenium.webdriver.common.keys import  Keys
+from selenium import  webdriver
+import  time
+
 
 
 root = Tk()
@@ -16,3 +21,8 @@ ttk.Label(root,text="palabara:").place(x=500,y=200)
 ttk.Entry(root,width= 30).place(x=450,y=235)
 ttk.Button(root,text="Buscar").place(x=500,y=270)
 root.mainloop()
+
+def  escraper ():
+    return
+
+
